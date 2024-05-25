@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "custom-font";
+    src: url('Norse.otf');
+}
+
+@font-face {
+    font-family: "custom-font-bold";
+    src: url('Norsebold.otf');
+}
+
+*{
+   margin: 0;
+   padding: 0%;
+}
+
+fieldset{
+    border: 3px;
+    background-color: white;
+}
+.content{
+    display:flex;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('bg-pic-2.jpg');
+    background-size:cover;
+    background-position: center;
+    width: 40vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    margin:30px;
+    margin-right: 50px;
+    font-weight: 550;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.name{
+    position: relative;
+    display: flex;
+    font-size: 64px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'custom-font-bold';
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+    top:-28.5vh;
+
+}
+
+.name img{
+    width: 80px;
+    height:auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+tr{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    gap:10vw;
+}
+
+th{
+    font-size: 22px;
+}
+
+td{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+
+}
+
+.bottom {
+    margin:30px;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bold;
+}
+
+
+
+
+.bottom button{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    width :210px;
+    background-color: #596d48;
+    padding:10px;
+    margin-bottom:30px;
+    border: 0cap;
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+
+input{
+    border-color: #E5E7EB ; 
+    border-radius: 3px;
+    
+}
+
+input:focus{
+    border-radius: 3px;
+    border-color: green;
+    
+}
+
